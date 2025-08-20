@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>More of My Work</title>
+<link rel="stylesheet" href="more-work.css">
+<script src="https://kit.fontawesome.com/e904aceba5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="container">
+    <nav>
+        <img src="images/logo-(final).png" class="logo" alt="Logo">
+        <ul id="sidemenu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#pcr">PCR Study</a></li>
+            <li><a href="#bioinformatics">Bioinformatics</a></li>
+            <li><a href="#cell-culture">Cell Culture</a></li>
+           
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    </nav>
+
+    <h1 class="subtittle">More of My Work</h1>
+
+    <!-- PCR Amplification Study -->
+    <section id="pcr">
+        <h2>PCR Amplification Study</h2>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/pcr2.jpeg" alt="PCR Step 1">
+                <div class="layer">
+                    <h3>Sample Preparation</h3>
+                    <p>Collected and purified DNA samples.<br>Ensured quality and concentration before amplification.</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/pcr1.jpeg" alt="PCR Step 2">
+                <div class="layer">
+                    <h3>PCR Process</h3>
+                    <p>Optimized thermal cycling conditions.<br>Used specific primers to target gene regions.</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Gel Electro.jpeg" alt="PCR Step 3">
+                <div class="layer">
+                    <h3>Gel Electrophoresis</h3>
+                    <p>Visualized amplified products on agarose gels.<br>Checked for specificity and product size.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bioinformatics Analysis -->
+    <section id="bioinformatics">
+        <h2>Bioinformatics Analysis</h2>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/sequence retrival.jpeg" alt="Bioinformatics 1">
+                <div class="layer">
+                    <h3>Sequence Retrieval</h3>
+                    <p>Collected raw sequences from NCBI databases.<br>Prepared data for alignment.</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/sequence aligmwnt.jpeg" alt="Bioinformatics 2">
+                <div class="layer">
+                    <h3>Sequence Alignment</h3>
+                    <p>Used BLAST tools to compare sequences.<br>Analyzed similarity and conserved regions.</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/data visualization.jpeg" alt="Bioinformatics 3">
+                <div class="layer">
+                    <h3>Data Visualization</h3>
+                    <p>Created visual charts of alignment results.<br>Interpreted patterns and functional sites.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cell Culture Experiment -->
+    <section id="cell-culture">
+        <h2>Cell Culture Experiment</h2>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/cell seeding.jpeg" alt="Cell Culture 1">
+                <div class="layer">
+                    <h3>Cell Seeding</h3>
+                    <p>Prepared culture plates with cells.<br>Ensured proper density and sterility.</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/observation.jpeg" alt="Cell Culture 2">
+                <div class="layer">
+                    <h3>Observation</h3>
+                    <p>Monitored cell growth under microscope.<br>Recorded morphological changes daily.</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/data recording.jpeg" alt="Cell Culture 3">
+                <div class="layer">
+                    <h3>Data Recording</h3>
+                    <p>Documented cell behavior and counts.<br>Analyzed results for experimental conclusions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<div class="copyright">
+    <p>Copyright @ Sadman Made With <i class="fa-solid fa-heart"></i></p>
+</div>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){ sidemenu.style.right= "0"; }
+    function closemenu(){ sidemenu.style.right= "-200px"; }
+</script>
+</body>
+</html>

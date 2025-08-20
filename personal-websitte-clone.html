@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website Clone</title>
+    <link rel="stylesheet" href="style1.css">
+    <script src="https://kit.fontawesome.com/e904aceba5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+            <img src="images/logo-(final).png" class="logo">
+            <ul id="sidemenu">
+                <li>
+                <a href="#header">Home</a>
+                </li>
+                <li>
+                <a href="#about">About</a>
+                </li>
+                <li>
+                <a href="#services">Services</a>
+                </li>
+                <li>
+                <a href="#portfolio">Portfolio</a>
+                </li>
+                <li>
+                <a href="#contact">Contact</a>
+                </li>
+                 <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()" ></i>
+             </nav>
+            <div class="header-text">
+                <p>Biotech Engineer</p>
+                <h1>Hi! I am <span> Nayeem </span><br> Sadman from China</h1>
+           
+        </div>
+    </div>
+    <!-----------------------About------------------------------>
+    
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/experiment picture3.jpeg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="subtittle"> About Me</h1>
+                        <p>A passionate biotechnology undergraduate from Guizhou University, 
+                            China, developed a strong foundation in molecular biology, genetics,
+                             and bioinformatics. Throughout their studies, they actively participated
+                              in lab research and student-led innovation projects. Their academic journey 
+                              emphasized both theoretical knowledge and hands-on skills in modern biotech 
+                              applications. This experience has prepared them to pursue advanced
+                               research or a professional career in the life sciences field.</p>
+                   
+                   <div class="tab-tittle">
+                    <p class="tab-links active-link" onclick="opentab('Skill')">Skill</p>
+                     <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                      <p class="tab-links" onclick="opentab('Education')">Education</p>
+
+                   </div>
+  <div class="tab-contents active-tab" id="Skill">
+  <ul>
+    <li>
+        <span>Lab Techniques</span><br>Proficient in PCR, gel electrophoresis, and spectrophotometry
+    </li>
+    <li>
+        <span>Bioinformatics</span><br>Experience with DNA sequence analysis and tools like BLAST & NCBI
+    </li>
+    <li>
+        <span>Research & Report Writing</span><br>Skilled in experimental design, data analysis, and scientific documentation
+    </li>
+    <li>
+        <span>Cell Culture & Microscopy</span><br>Hands-on experience with microbial and mammalian cell cultures
+    </li>
+</ul>
+</div>
+
+<div class="tab-contents" id="Experience">
+    <ul>
+        <li>
+            <span>Internship</span><br>Worked at a molecular biology lab focusing on PCR and DNA sequencing
+        </li>
+        <li>
+            <span>Lab Assistant</span><br>Supported cell culture maintenance, microscopy, and data recording
+        </li>
+        <li>
+            <span>Research Collaboration</span><br>Assisted in bioinformatics analysis using tools like BLAST and NCBI
+        </li>
+        <li>
+            <span>Workshop Participation</span><br>Attended hands-on training in gene cloning and protein purification
+        </li>
+    </ul>
+</div>
+
+
+<div class="tab-contents " id="Education">
+    <ul>
+        <li>
+            <span>Undergraduate Studies</span><br>Studied Biotechnology at Guizhou University, China
+        </li>
+        <li>
+            <span>Focus Areas</span><br>Molecular biology, genetics, bioinformatics, and cell culture
+        </li>
+        <li>
+            <span>Project Work</span><br>Research on gene expression and stress response in plants
+        </li>
+        <li>
+            <span>Academic Highlights</span><br>Active participation in seminars and lab training programs
+        </li>
+    </ul>
+</div>
+
+ </div>
+  </div>
+     </div>
+    </div>
+          
+
+    <!---------------------------Services-------------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="subtittle">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-dna"></i>
+                <h2>Molecular Analysis</h2>
+                <p>As a dedicated biotechnology engineer, I offer a range of services 
+                    to support scientific research and innovation..
+                      </p>
+                     <a href="more-work1.html?section=molecular">learn more</a>
+            </div>
+             <div>
+               <i class="fa-solid fa-chart-bar"></i>
+                <h2>Bioinformatics & Data Analysis</h2>
+                <p>Offering support in DNA sequence analysis, BLAST searches, and data
+                     visualization to turn complex biological data into clear, actionable 
+                    insights. 
+                      </p>
+                     <a href="more-work1.html?section=bioinformatics">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-microscope"></i>
+                <h2>Lab Techniques</h2>
+                <p>Skilled in essential molecular biology methods including PCR, 
+                    gel electrophoresis, and spectrophotometry.</p>
+                     <a href="more-work1.html?section=labtechniques">learn more</a>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+<!---------------------------Portfolio---------------------------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="subtittle">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/WhatsApp Image 2025-06-29 at 11.58.46 AM.jpeg">
+                <div class="layer">
+                    <h3>PCR Amplification Study</h3>
+                    <p>
+                        Designed and optimized PCR protocols to amplify target genes efficiently. 
+                        Performed gel electrophoresis to validate amplification results and ensure 
+                        product specificity.
+                    </p>
+                   <a href="#"><i class="fa-solid fa-dna"></i></a>
+
+                </div>
+            </div>
+             <div class="work">
+                <img src="images/work1.jpeg">
+                 <div class="layer">
+                   <h3>Bioinformatics Analysis</h3>
+                    <p>Analyzed DNA sequences using NCBI BLAST and gene annotation tools. 
+            Visualized alignment data to support experimental research findings.</p>
+                
+                  <a href="#"><i class="fa-solid fa-dna"></i></a>
+
+                 </div>
+                
+            </div>
+             <div class="work">
+                <img src="images/background2.jpeg">
+                 <div class="layer">
+                    <h3>Cell Culture Experiment</h3>
+                    <p>  Maintained and observed mammalian cell lines under controlled conditions. 
+            
+                    </p>
+                   <a href="#"><i class="fa-solid fa-dna"></i></a>
+
+                </div>
+            </div>
+        </div>
+        <a href="more-work.html" class="btn">See more</a>
+    </div>
+</div>
+
+<!--------------------------Contact-------------------------->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="subtittle"> Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>sanjidanahar34@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i>01302151132</p>
+                        <div class="social-icons">
+                             <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i> </a>
+                             <a href=""><i class="fa-brands fa-instagram"></i> </a>
+                             <a href=""><i class="fa-brands fa-linkedin"></i> </a>
+                             <a href=""><i class="fa-brands fa-twitter-square"></i> </a>
+                             
+                            </div>
+                         <a href="images/My cv online.pdf" class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                     <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2"> Submit</button>
+                     </form>
+                     <span id="msg"></span>
+                    </div>
+                </div>
+               
+            </div>
+            <div class="copyright">
+                <p>Copyright @ Sadman Made With <i class="fa-solid fa-heart"></i> By Easy Tutorial</p>
+            </div>
+        </div>
+        <script>
+        var tablinks= document.getElementsByClassName("tab-links");
+        var tabcontents= document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+         
+           }
+
+           for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+           }
+
+           event.currentTarget.classList.add("active-link");
+           document.getElementById(tabname).classList.add("active-tab");
+
+        }
+
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right= "0";
+        }
+         function closemenu(){
+            sidemenu.style.right= "-200px";
+        }
+    </script>
+    <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxZ_qeEF79FkJR02bjPpZgW1iNLpjRElj5GjflsevFnd08A16N6_3d-cqipk4Z47Z9_4Q/exec'
+  const form = document.forms['submit-to-google-sheet']
+   const msg= document.getElementById("msg")
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML="Message sent successfully"
+        setTimeout(function(){
+            msg.innerHTML=""
+        }, 5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
